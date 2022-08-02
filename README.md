@@ -31,4 +31,4 @@ HOW TO USE :
    * Press "Return to main menu"
 - If the tables appear in each table HTML page, the import is complete. To better check, go to "localhost/MAMP" and go to "phpMyAdmin".
 - From the main menu, press the "Query" button
-- 19 questions, corresponding to 19 SQL requests, are proposed. To check the request answer, click on the "Answer Qx" button under the question you are intersted in. In "interrogations.php", all the questions are transposed into a SQL query.
+- 19 questions, corresponding to 19 SQL requests, are proposed. To check the request answer, click on the "Answer Qx" button under the question you are intersted in. In "interrogations.php", all the questions are transposed into SQL queries.
