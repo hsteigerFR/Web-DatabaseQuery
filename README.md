@@ -17,4 +17,18 @@ In this graph, the # in the table keys means the key is external. Therefore, to 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 HOW TO USE :
 - Install MAMP.
-- From the MAMP installation folder, replace the "htdocs" folder by the one in this repository 
+- From the MAMP installation folder, replace the "htdocs" folder by the one in this repository.
+- Launch MAMP and on the ribbon, go to "MAMP", "Preferences" and "Ports".
+- Set : Apache Port -> 80, Nginx Port -> 80, MySQL Port -> 3306.
+- Press the Start Servers button.
+- On an Internet navigator, go to "localhost:80".
+- On the main menu, first press "Create the Database".
+- For each table in the "Select a table" scrolling menu :
+   * Press "Change" in the main menu.
+   * Once on the corresponding table HTML page, press "Browse" under "Complete Table with .csv file".
+   * Choose the corresponding .csv file in this repo
+   * Press "Load", the content of the table should appear at the bottom of the page
+   * Press "Return to main menu"
+- If the tables appear in each table HTML page, the import is complete. To better check, go to "localhost/MAMP" and go to "phpMyAdmin".
+- From the main menu, press the "Query" button
+- 19 questions, corresponding to 19 SQL requests, are proposed. To check the request answer, click on the "Answer Qx" button under the question you are intersted in. In "interrogations.php", all the questions are transposed into a SQL query.
